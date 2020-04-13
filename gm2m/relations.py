@@ -6,7 +6,7 @@ from django.db.utils import DEFAULT_DB_ALIAS
 from django.db.models import Q
 from django.apps import apps
 from django.core import checks
-from django.utils import six
+import six
 from django.utils.functional import cached_property
 
 from .contenttypes import ct, get_content_type
