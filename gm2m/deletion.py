@@ -1,6 +1,6 @@
 
 from django.db.models.deletion import CASCADE, DO_NOTHING
-from django.utils import six
+import six
 
 from .signals import deleting
 
