@@ -1,7 +1,7 @@
 from collections import defaultdict
 
 from django.db.models.query import ModelIterable, QuerySet
-from django.utils import six
+import six
 
 from .contenttypes import ct as ct_classes, get_content_type
 
