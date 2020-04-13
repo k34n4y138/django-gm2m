@@ -2,7 +2,7 @@ from django.db import models
 from django.db.models.fields.related import RECURSIVE_RELATIONSHIP_CONSTANT
 from django.db.migrations.state import StateApps
 from django.utils.functional import cached_property
-from django.utils import six
+import six
 
 from .contenttypes import ct
 
