@@ -1,6 +1,6 @@
 import warnings
 
-from django.utils import six
+import six
 from django.db.models.fields import Field
 from django.db import connection
 from django.utils.encoding import force_text
